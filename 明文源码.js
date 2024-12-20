@@ -1,5 +1,5 @@
 
-let 快速订阅访问入口= ['app'];
+let 快速订阅访问入口= ['auto'];
 let addresses = [];
 let addressesapi = [];
 
@@ -40,7 +40,7 @@ let 更新时间 = 3;
 let MamaJustKilledAMan = ['telegram','twitter','miaoko'];
 let proxyIPPool = [];
 let socks5Data;
-let alpn = '';
+let alpn = 'h2';
 let 网络备案 = `提供维护: <a href='https://t.me/CMLiussss'>CMLiussss</a>`;//写你自己的维护者广告
 async function 整理优选列表(api) {
 	if (!api || api.length === 0) return [];
@@ -539,7 +539,7 @@ export default {
 				}
 			}
 			
-			path = env.PATH || "/";
+			path = env.PATH || "/?ed=2560";
 			sni = env.SNI || host;
 			type = env.TYPE || type;
 			隧道版本作者 = env.ED || 隧道版本作者;
