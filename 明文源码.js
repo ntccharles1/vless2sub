@@ -1,5 +1,5 @@
 
-let 快速订阅访问入口= ['auto'];
+let 快速订阅访问入口= ['app'];
 let addresses = [];
 let addressesapi = [];
 
@@ -539,7 +539,7 @@ export default {
 				}
 			}
 			
-			path = env.PATH || "/?ed=2560";
+			path = env.PATH || "/";
 			sni = env.SNI || host;
 			type = env.TYPE || type;
 			隧道版本作者 = env.ED || 隧道版本作者;
