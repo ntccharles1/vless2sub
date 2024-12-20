@@ -477,7 +477,7 @@ export default {
 		let uuid = "";
 		let path = "";
 		let sni = "";
-		let type = "ws";
+		let type = "xhttp";
 		alpn = env.ALPN || alpn;
 		let UD = Math.floor(((timestamp - Date.now())/timestamp * 99 * 1099511627776 * 1024)/2);
 		if (env.UA) MamaJustKilledAMan = MamaJustKilledAMan.concat(await 整理(env.UA));
