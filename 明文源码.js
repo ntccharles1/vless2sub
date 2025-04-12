@@ -853,10 +853,10 @@ export default {
 				}
 
 				if (协议类型 == atob('VHJvamFu')){
-					const 特洛伊Link = `${atob('dHJvamFuOi8v') + uuid}@${address}:${port + atob('P3NlY3VyaXR5PXRscyZzbmk9') + sni}&alpn=${encodeURIComponent(alpn)}&fp=chrome&type=${type}&host=${伪装域名}&path=${encodeURIComponent(最终路径)}&mode=packet-up#${encodeURIComponent(addressid + 节点备注)}`;
+					const 特洛伊Link = `${atob('dHJvamFuOi8v') + uuid}@${address}:${port + atob('P3NlY3VyaXR5PXRscyZzbmk9') + sni}&fp=chrome&type=${type}&path=${encodeURIComponent(最终路径)}&mode=packet-up#${encodeURIComponent(addressid + 节点备注)}`;
 					return 特洛伊Link;
 				} else {
-					const 维列斯Link = `${atob('dmxlc3M6Ly8=') + uuid}@${address}:${port + atob('P2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmc25pPQ==') + sni}&alpn=${encodeURIComponent(alpn)}&fp=chrome&type=${type}&host=${伪装域名}&path=${encodeURIComponent(最终路径)}&mode=packet-up#${encodeURIComponent(addressid + 节点备注)}`;
+					const 维列斯Link = `${atob('dmxlc3M6Ly8=') + uuid}@${address}:${port + atob('P2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmc25pPQ==') + sni}&fp=chrome&type=${type}&path=${encodeURIComponent(最终路径)}&mode=packet-up#${encodeURIComponent(addressid + 节点备注)}`;
 					return 维列斯Link;
 				}
 
